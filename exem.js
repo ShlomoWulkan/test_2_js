@@ -1,6 +1,6 @@
 const Mission1 = (arr) => {
-    const sortedArr = arr.filter(n => n % 2 === 0)
-    return sortedArr
+    const ArrOfEvens = arr.filter(n => n % 2 === 0)
+    return ArrOfEvens
 }
 
 const Mission2 = (str) => {
