@@ -14,3 +14,23 @@ const Mission2 = (str) => {
     return numOfWrdsWith4Letters;
 }
 
+const Mission3 = (matrix) => {
+    const arr = matrix.flat()
+    return arr
+}
+
+const Mission5 = (keysArr, valuesArr) => {
+    let obj = {};
+    const minLength = Math.min(keysArr.length, valuesArr.length); 
+    for (let i = 0; i < minLength; i++) {
+        obj[keysArr[i]] = valuesArr[i];
+    }
+    return obj;
+};
+
+module.exports = {
+    Mission1,
+    Mission2,
+    Mission3,
+    Mission5
+  } // without 4 and 6
